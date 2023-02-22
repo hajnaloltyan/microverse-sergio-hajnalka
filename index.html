@@ -15,12 +15,35 @@
 	Thank you for taking the time to help us improve the platform
     </p>
     <form id="survey-form">
-	<label id="name-label">Name</label>
-	<input id="name" type="text" placeholder="Enter your name" required>
-	<label id="email-label">Email</label>
-	<input id="email" type="email" placeholder="Enter your Email" required>
-	<label id="number-label">Age (optional)</label>
-	<input id="number" type="number" max="90" min="10">
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your Email" required>
+      <label id="number-label">Age (optional)</label>
+      <input id="number" type="number" max="90" min="10" placeholder="Age">
+
+      <select id="dropdown">
+        <option value="student">Student</option>
+        <option value="full-time job">Full-time Job</option>
+      </select>
+
+      <input type="radio" value="Definitely" name="options">
+      <label>Definitely</label>
+      <input type="radio" value="Maybe" name="options">
+      <label>Maybe</label>
+      <input type="radio" value="Not sure" name="options">
+      <label>Not sure</label>
+
+      <input type="checkbox" value="1" name="choices">
+      <label>1</label>
+      <input type="checkbox" value="2" name="choices">
+      <label>2</label>
+      <input type="checkbox" value="3" name="choices">
+      <label>3</label>
+
+      <textarea cols="30" rows="10"></textarea>
+
+      <button id="submit" type="submit">Submit</button>
     </form>
 
     <script  src="js/index.js"></script>
